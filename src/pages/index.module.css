@@ -1,0 +1,151 @@
+.page {
+  min-height: calc(100vh - 60px);
+}
+
+.hero,
+.projects {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 7rem clamp(1.5rem, 6vw, 6rem);
+}
+
+.hero {
+  min-height: 68vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.eyebrow,
+.sectionLabel,
+.projectNumber {
+  color: var(--ifm-color-primary);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.eyebrow {
+  margin-bottom: 1.25rem;
+}
+
+.hero h1 {
+  max-width: 840px;
+  margin: 0;
+  font-size: clamp(3.5rem, 10vw, 8rem);
+  line-height: 0.92;
+  letter-spacing: -0.07em;
+}
+
+.hero h1 span {
+  color: var(--ifm-color-primary);
+}
+
+.intro {
+  max-width: 590px;
+  margin: 2.25rem 0 2.5rem;
+  color: var(--ifm-color-emphasis-700);
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  line-height: 1.55;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.primaryLink,
+.secondaryLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 0.9rem 1.1rem;
+  border: 1px solid var(--ifm-color-primary);
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 180ms ease, background 180ms ease;
+}
+
+.primaryLink {
+  background: var(--ifm-color-primary);
+  color: #111;
+}
+
+.secondaryLink {
+  border-color: var(--ifm-color-emphasis-300);
+  color: var(--ifm-font-color-base);
+}
+
+.primaryLink:hover,
+.primaryLink:focus-visible,
+.secondaryLink:hover,
+.secondaryLink:focus-visible {
+  color: inherit;
+  transform: translateY(-3px);
+}
+
+.secondaryLink:hover,
+.secondaryLink:focus-visible {
+  background: var(--ifm-color-emphasis-100);
+}
+
+.projects {
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.sectionLabel {
+  margin-bottom: 1rem;
+}
+
+.projects h2 {
+  max-width: 600px;
+  margin: 0 0 3rem;
+  font-size: clamp(2rem, 5vw, 3.75rem);
+  letter-spacing: -0.05em;
+}
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.projectGrid article {
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.projectGrid h3 {
+  margin: 1.5rem 0 0.75rem;
+}
+
+.projectGrid p {
+  max-width: 260px;
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.55;
+}
+
+.projectGrid a {
+  color: var(--ifm-color-primary-dark);
+  font-weight: 600;
+}
+
+@media (max-width: 700px) {
+  .hero,
+  .projects {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+
+  .hero {
+    min-height: auto;
+  }
+
+  .projectGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}

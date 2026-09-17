@@ -1,0 +1,23 @@
+:root {
+  --ifm-color-primary: #647bff;
+  --ifm-color-primary-dark: #4e68ff;
+  --ifm-color-primary-darker: #405cff;
+  --ifm-color-primary-darkest: #2744f5;
+  --ifm-color-primary-light: #7a8eff;
+  --ifm-color-primary-lighter: #889aff;
+  --ifm-color-primary-lightest: #a9b5ff;
+  --ifm-font-family-base: Inter, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --ifm-heading-font-family: var(--ifm-font-family-base);
+  --ifm-code-font-size: 95%;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #a7b2ff;
+  --ifm-color-primary-dark: #8d9bff;
+  --ifm-color-primary-darker: #8190ff;
+  --ifm-color-primary-darkest: #6477ff;
+  --ifm-color-primary-light: #c1c9ff;
+  --ifm-color-primary-lighter: #cdd3ff;
+  --ifm-color-primary-lightest: #e2e5ff;
+}
