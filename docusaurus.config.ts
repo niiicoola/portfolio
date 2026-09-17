@@ -15,14 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://tuo-dominio.example.com',
+  url: 'https://nicola1roberto.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/portfolio/',
+  trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'tuo-username',
+  organizationName: 'NICOLA1ROBERTO',
   projectName: 'portfolio',
 
   onBrokenLinks: 'throw',
@@ -43,7 +44,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/tuo-username/portfolio/tree/main/',
+          editUrl: 'https://github.com/NICOLA1ROBERTO/portfolio/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -53,7 +54,7 @@ const config: Config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/tuo-username/portfolio/tree/main/',
+          editUrl: 'https://github.com/NICOLA1ROBERTO/portfolio/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -83,7 +84,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/tuo-username',
+          href: 'https://github.com/NICOLA1ROBERTO',
           label: 'GitHub',
           position: 'right',
         },
@@ -119,7 +120,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/tuo-username',
+              href: 'https://github.com/NICOLA1ROBERTO',
             },
           ],
         },
