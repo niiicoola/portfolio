@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://nicola1roberto.github.io',
+  url: 'https://niiicoola.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/portfolio/',
@@ -23,7 +23,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'NICOLA1ROBERTO',
+  organizationName: 'niiicoola',
   projectName: 'portfolio',
 
   onBrokenLinks: 'throw',
@@ -44,22 +44,9 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/NICOLA1ROBERTO/portfolio/tree/main/',
+          editUrl: 'https://github.com/niicoola/portfolio/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/NICOLA1ROBERTO/portfolio/tree/main/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -82,9 +69,8 @@ const config: Config = {
           position: 'left',
           label: 'Documentazione',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/NICOLA1ROBERTO',
+          href: 'https://github.com/niiicoola',
           label: 'GitHub',
           position: 'right',
         },
@@ -112,15 +98,11 @@ const config: Config = {
           ],
         },
         {
-          title: 'More',
+          title: 'Altro',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
               label: 'GitHub',
-              href: 'https://github.com/NICOLA1ROBERTO',
+              href: 'https://github.com/niiicoola',
             },
           ],
         },

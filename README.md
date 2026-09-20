@@ -25,4 +25,4 @@ Aggiorna i placeholder `Nome Cognome`, `tuo-username` e `tua-email@example.com` 
 - `src/pages/index.tsx`
 - `docusaurus.config.ts`
 
-La documentazione tecnica vive nella cartella `docs/`, mentre gli articoli futuri andranno nella cartella `blog/`.
+La documentazione tecnica vive nella cartella `docs/`.
